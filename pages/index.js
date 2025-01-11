@@ -1,10 +1,6 @@
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-// import Header from 'components\Header';
-// import Navbar from 'components\Navbar';
-// import Footer from 'components\Footer';
-
 
 
 export default function Home() {
@@ -13,7 +9,7 @@ export default function Home() {
 
         <Header />
         <Navbar />
-        <Footer />
+        
 
         <main>
 
@@ -26,6 +22,7 @@ export default function Home() {
           </p>
 
         </main>
+        <Footer />
 
     </div>
   );  
